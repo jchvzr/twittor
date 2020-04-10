@@ -2,6 +2,8 @@
 var url = window.location.href;
 var swLocation = '/twittor/sw.js';
 
+console.log('hola mundo');
+console.log(navigator.serviceWorker);
 
 if (navigator.serviceWorker){
   if( url.includes('localhost') ){
